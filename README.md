@@ -782,3 +782,18 @@ if __name__ == "__main__":
     # Elevator system moves lift 1 to destination floor
     elevator_system.move_lift(lift_1, 5)
 ```
+### Output
+```python
+Up button pressed at floor 2
+Lift 1 assigned to floor 2
+Floor : 2, Going: ElevatorStatus.UP
+Lift Door Opened
+Lift Door Closed
+Passenger Wants to Go : 5
+Destinations: [5]
+Floor : 5, Going: ElevatorStatus.UP
+Lift Door Opened
+Lift Door Closed
+
+Process finished with exit code 0
+```
